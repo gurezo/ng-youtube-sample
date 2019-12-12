@@ -1,0 +1,10 @@
+{
+  "name": "youtube Extension",
+  "version": "1.0",
+  "description": "Build an Extension with Angular",
+  "manifest_version": 2,
+  "browser_action": {
+      "default_popup": "index.html"
+  },
+  "content_security_policy": "script-src 'self' https://www.youtube.com/player_api https://s.ytimg.com/yts/jsbin/www-widgetapi-vfljlXsRD.js; object-src 'self'"
+}
