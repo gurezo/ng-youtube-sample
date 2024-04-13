@@ -72,18 +72,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ng-youtube-sample:build"
+            "buildTarget": "ng-youtube-sample:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ng-youtube-sample:build:production"
+              "buildTarget": "ng-youtube-sample:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-youtube-sample:build"
+            "buildTarget": "ng-youtube-sample:build"
           }
         },
         "test": {
