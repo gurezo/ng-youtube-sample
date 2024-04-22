@@ -33,11 +33,11 @@ importers:
         specifier: ^17.3.5
         version: 17.3.5(@angular/common@17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1))(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(@angular/platform-browser@17.3.5(@angular/animations@17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4)))(@angular/common@17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1))(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4)))(rxjs@7.8.1)
       '@angular/youtube-player':
-        specifier: ^17.3.4
-        version: 17.3.4(@angular/common@17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1))(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1)
+        specifier: ^17.3.5
+        version: 17.3.5(@angular/common@17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1))(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1)
       core-js:
-        specifier: ^3.36.1
-        version: 3.36.1
+        specifier: ^3.37.0
+        version: 3.37.0
       rxjs:
         specifier: ~7.8.1
         version: 7.8.1
@@ -260,8 +260,8 @@ packages:
       '@angular/platform-browser': 17.3.5
       rxjs: ^6.5.3 || ^7.4.0
 
-  '@angular/youtube-player@17.3.4':
-    resolution: {integrity: sha512-vD/u2mbYLamgVN7mj85ZAj4lmWVhMbotMyI61612pNN8hE/Ki+auLromGRwCb+jGJA9kJ60S3dYlkVWenV3ooQ==}
+  '@angular/youtube-player@17.3.5':
+    resolution: {integrity: sha512-utHqEI0Wwrjac5DOjmQG6uFHDSvwX/Iutxj0W6jzlJE+P1eKPX9QjOgzFyKYSg+dtL2oGxvmKVBNJMIHPnVAag==}
     peerDependencies:
       '@angular/common': ^17.0.0 || ^18.0.0
       '@angular/core': ^17.0.0 || ^18.0.0
@@ -2003,8 +2003,8 @@ packages:
   core-js-compat@3.36.1:
     resolution: {integrity: sha512-Dk997v9ZCt3X/npqzyGdTlq6t7lDBhZwGvV94PKzDArjp7BTRm7WlDAXYd/OWdeFHO8OChQYRJNJvUCqCbrtKA==}
 
-  core-js@3.36.1:
-    resolution: {integrity: sha512-BTvUrwxVBezj5SZ3f10ImnX2oRByMxql3EimVqMysepbC9EeMUOpLwdy6Eoili2x6E4kf+ZUB5k/+Jv55alPfA==}
+  core-js@3.37.0:
+    resolution: {integrity: sha512-fu5vHevQ8ZG4og+LXug8ulUtVxjOcEYvifJr7L5Bfq9GOztVqsKd9/59hUk2ZSbCrS3BqUr3EpaYGIYzq7g3Ug==}
 
   core-util-is@1.0.2:
     resolution: {integrity: sha512-3lqz5YjWTYnW6dlDa5TLaTCcShfar1e40rmcJVwCBJC6mWlFuj0eCHIElmG1g5kyuJ/GD+8Wn4FFCcz4gJPfaQ==}
@@ -4696,7 +4696,7 @@ snapshots:
       rxjs: 7.8.1
       tslib: 2.6.2
 
-  '@angular/youtube-player@17.3.4(@angular/common@17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1))(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1)':
+  '@angular/youtube-player@17.3.5(@angular/common@17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1))(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1)':
     dependencies:
       '@angular/common': 17.3.5(@angular/core@17.3.5(rxjs@7.8.1)(zone.js@0.14.4))(rxjs@7.8.1)
       '@angular/core': 17.3.5(rxjs@7.8.1)(zone.js@0.14.4)
@@ -6583,7 +6583,7 @@ snapshots:
     dependencies:
       browserslist: 4.23.0
 
-  core-js@3.36.1: {}
+  core-js@3.37.0: {}
 
   core-util-is@1.0.2: {}
 
