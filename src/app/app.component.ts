@@ -5,7 +5,6 @@ import { YouTubePlayer } from '@angular/youtube-player';
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
-    standalone: true,
     imports: [YouTubePlayer]
 })
 export class AppComponent {
