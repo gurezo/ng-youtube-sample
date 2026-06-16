@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^22.0.1",
+    "@angular/build": "^22.0.1",
     "@angular/cli": "^22.0.1",
     "@angular/compiler-cli": "^22.0.1",
     "@types/chrome": "0.1.43",
@@ -35,15 +36,10 @@
     "@types/youtube": "0.3.0",
     "codelyzer": "^6.0.2",
     "istanbul-lib-instrument": "^6.0.3",
-    "jasmine-core": "~6.3.0",
     "jasmine-spec-reporter": "~7.0.0",
-    "karma": "~6.4.4",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.1",
-    "karma-coverage-istanbul-reporter": "~3.0.3",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.2.0",
+    "jsdom": "^29.1.1",
     "ts-node": "~10.9.2",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "vitest": "^4.1.9"
   }
 }
