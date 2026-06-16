@@ -1,9 +1,10 @@
 # NgYoutubeSample
 
 ## for reference
+
 - [The new Angular Youtube Player component!](https://medium.com/angular-in-depth/the-new-angular-youtube-player-component-9ce52ecf3dee)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 22.0.1.
 
 ## Development server
 
@@ -23,7 +24,9 @@ Run `ng test` to execute the unit tests via [Vitest](https://vitest.dev).
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `pnpm exec playwright install` once to install the required browser binaries.
+
+Run `pnpm e2e` to execute the end-to-end tests via [Playwright](https://playwright.dev/).
 
 ## Further help
 

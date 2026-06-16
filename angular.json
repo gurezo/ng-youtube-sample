@@ -93,18 +93,6 @@
             "tsConfig": "tsconfig.spec.json",
             "buildTarget": "ng-youtube-sample:build"
           }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ng-youtube-sample:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "ng-youtube-sample:serve:production"
-            }
-          }
         }
       }
     }
